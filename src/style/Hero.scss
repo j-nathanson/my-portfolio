@@ -13,19 +13,18 @@
         width: 344px;
         font-size: 36px;
         font-weight: 800;
-        line-height: 42px;
-        letter-spacing: 0em;
-        margin-bottom: 21px;
+        line-height: 40px;
+        margin-bottom: 15px;
     }
 
     // description
-    h3 {
+    h2 {
         width: 265px;
         height: 36px;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
-        margin-bottom: 29px;
+        margin-bottom: 20px;
     }
 
     // icon container
@@ -33,7 +32,7 @@
         display: flex;
         justify-content: space-between;
         width: 140px;
-        margin-bottom: 21px;
+        margin-bottom: 10px;
     }
 
     // code bracket
@@ -43,7 +42,7 @@
         font-family: 'Sora';
         font-style: normal;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 38px;
     }
 }
@@ -51,22 +50,59 @@
 
 //*ICONS
 
+.mail-icon,
+.github-icon,
+.linkedin-icon {
+    height: 33px;
+    width: 33px;
+}
+
 .mail-icon {
     background: url('../assests/icons/mail.svg') no-repeat;
-    height: 36px;
-    width: 36px;
 }
 
 .github-icon {
     background: url('../assests/icons/github.svg') no-repeat;
-    height: 36px;
-    width: 36px;
 }
 
 .linkedin-icon {
     background: url('../assests/icons/linkedin.svg') no-repeat;
-    height: 36px;
-    width: 36px;
 }
 
 //*END ICONS
+
+// *MEDIA QUERIES
+
+@media only screen and (min-width: 774px) {
+    .hero-content-container {
+
+        // header
+        h1 {
+            width: 604px;
+            font-size: 64px;
+            font-size: 64px;
+            line-height: 59px;
+            margin-bottom: 30px;
+        }
+
+        // description
+        h2 {
+            width: 390px;
+            height: 73px;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 31px;
+            margin-bottom: 8px;
+        }
+
+        .hero-icon-container{
+            width: 130px;
+        }
+        .mail-icon,
+        .github-icon,
+        .linkedin-icon {
+            height: 36px;
+            width: 36px;
+        }
+    }
+}
