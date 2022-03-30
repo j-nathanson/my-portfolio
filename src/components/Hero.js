@@ -12,12 +12,12 @@ export default function Hero() {
                     Brooklyn, New York
                 </h2>
                 <div className="hero-icon-container">
-                    <div className="mail-icon" />
-                    <div className="github-icon" />
-                    <div className="linkedin-icon" />
+                    <a href="mailto:jacobnath93@gmail.com"><div className="mail-icon" /></a>
+                    <a href='https://github.com/j-nathanson' target='_blank' rel='noreferrer' ><div className="github-icon" /></a>
+                    <a href='https://www.linkedin.com/in/jacob-nathanson-14201688/' target='_blank' rel='noreferrer' ><div className="linkedin-icon" /></a>
                 </div>
                 <h4>&lt;&#47;&gt;</h4>
             </div>
-        </div>
+        </div >
     )
 }
