@@ -1,0 +1,72 @@
+//* HERO
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content-container {
+
+    // header
+    h1 {
+        width: 344px;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 42px;
+        letter-spacing: 0em;
+        margin-bottom: 21px;
+    }
+
+    // description
+    h3 {
+        width: 265px;
+        height: 36px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 29px;
+    }
+
+    // icon container
+    .hero-icon-container {
+        display: flex;
+        justify-content: space-between;
+        width: 140px;
+        margin-bottom: 21px;
+    }
+
+    // code bracket
+    h4 {
+        width: 71px;
+        height: 48px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
+
+
+//*ICONS
+
+.mail-icon {
+    background: url('../assests/icons/mail.svg') no-repeat;
+    height: 36px;
+    width: 36px;
+}
+
+.github-icon {
+    background: url('../assests/icons/github.svg') no-repeat;
+    height: 36px;
+    width: 36px;
+}
+
+.linkedin-icon {
+    background: url('../assests/icons/linkedin.svg') no-repeat;
+    height: 36px;
+    width: 36px;
+}
+
+//*END ICONS
