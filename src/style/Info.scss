@@ -1,0 +1,98 @@
+.info-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 42px;
+    }
+}
+
+.about-section,
+.skills-section {
+    margin-left: 30px;
+}
+
+//* About
+.about-section {
+    h2 {
+        color: #FFF500;
+        margin-bottom: 30px;
+    }
+
+    p {
+        width: 347px;
+        left: 30px;
+        top: 1062px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .text-container {
+        width: 347px;
+        height: 210px;
+        margin-bottom: 100px;
+    }
+}
+
+//*Skills
+.skills-section {
+    h2 {
+        color: #00FFF0;
+        margin-bottom: 36px;
+    }
+
+    .skills-icon-container {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 325px;
+    }
+
+}
+
+.skills-icon {
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+
+}
+
+.html-icon {
+    background: url('../assets/icons/html.svg') no-repeat
+}
+
+.css-icon {
+    background: url('../assets/icons/css.svg') no-repeat
+}
+
+.js-icon {
+    background: url('../assets/icons/javascript.svg') no-repeat
+}
+
+.sass-icon {
+    background: url('../assets/icons/sass.svg') no-repeat
+}
+
+.bootstrap-icon {
+    background: url('../assets/icons/boostrap.svg') no-repeat
+}
+
+.react-icon {
+    background: url('../assets/icons/react.svg') no-repeat
+}
+
+.redux-icon {
+    background: url('../assets/icons/redux.svg') no-repeat
+}
+
+.mongo-icon {
+    background: url('../assets/icons/mongo.svg') no-repeat
+}
+
+.node-icon {
+    background: url('../assets/icons/node.svg') no-repeat
+}
