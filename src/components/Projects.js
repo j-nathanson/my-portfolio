@@ -1,11 +1,10 @@
 import React from 'react'
-import dreamy from '../assets/images/dreamy.png'
 import Card from './Card'
 import { PROJECT_DATA } from '../shared/project-data'
 
 export default function Projects() {
     return (
-        <div className='projects-section'>
+        <div className='projects-section' id='projects'>
             <div className='projects-content-container'>
                 <h2>Projects</h2>
                 <div className="projects-container">
