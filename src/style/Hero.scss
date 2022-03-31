@@ -4,6 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    a:hover {
+        background-color: rgb(149, 0, 208);
+        border-radius: 33px;
+    }
 }
 
 .hero-content-container {
@@ -67,10 +72,6 @@
     background-size: cover;
 }
 
-a:hover {
-    background-color: rgb(149, 0, 208);
-    border-radius: 33px;
-}
 
 //*END ICONS
 
@@ -121,7 +122,6 @@ a:hover {
         justify-content: start;
         margin-left: 180px;
     }
-
 
     .hero-content-container {
         width: 860px;
