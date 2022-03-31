@@ -7,6 +7,7 @@
 }
 
 .hero-content-container {
+
     // header
     h1 {
         width: 344px;
@@ -75,6 +76,7 @@ a:hover {
 
 // *MEDIA QUERIES
 
+// Tablet
 @media only screen and (min-width: 774px) {
     .hero-content-container {
 
@@ -112,9 +114,17 @@ a:hover {
     }
 }
 
-
+// Desktop
 @media only screen and (min-width: 1440px) {
+
+    .hero-section {
+        justify-content: start;
+        margin-left: 180px;
+    }
+
+
     .hero-content-container {
+        width: 860px;
 
         //header
         h1 {
