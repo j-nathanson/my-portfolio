@@ -7,11 +7,11 @@ export default function About() {
                 <h2>About</h2>
                 <div className="text-container">
                     <p>
-                        I began my career as an ESL teacher in Vietnam, before being thrusted into the world of online teaching due to covid-19.
+                        My interest in web development began while I was an ESL instructor in Vietnam. As the pandemic progressed and remote learning became mandatory, the teaching software that was in place was often hard to use for both instructors and students.
                     </p>
                     <br />
                     <p>
-                        After being frustrated with hard to use teaching software, I started learning about web development and have developed a passion for solving problems and creating pleasent experiences with code.
+                        Through my web development education, I realized that my abilities enable me to create more useful and pleasant experiences across an unlimited variety of user requirements.
                     </p>
                 </div>
 
