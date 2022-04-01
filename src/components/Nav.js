@@ -26,7 +26,7 @@ export default function Nav() {
                     to='projects'
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-30}
                     duration={500}
                 >projects</Link>
                 <a href="resume/resume.pdf" download>resume</a>
