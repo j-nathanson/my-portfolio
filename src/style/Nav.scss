@@ -14,7 +14,10 @@ nav {
 
     a:hover {
         color: #00FFF0;
-        ;
+    }
+
+    .active {
+        border-bottom: 1px solid white;
     }
 }
 
