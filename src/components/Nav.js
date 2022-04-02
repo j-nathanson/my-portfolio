@@ -10,7 +10,7 @@ export default function Nav() {
                     to='contact'
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={0}
                     duration={500}
                 >contact</Link>
                 <Link
@@ -18,7 +18,7 @@ export default function Nav() {
                     to='about'
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-40}
                     duration={500}
                 >about</Link>
                 <Link

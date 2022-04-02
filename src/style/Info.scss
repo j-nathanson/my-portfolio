@@ -3,12 +3,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
     margin-bottom: 60px;
+    //border: 1px solid white
 
     h2 {
         font-weight: 800;
-        font-size: 50px;
+        font-size: 40px;
+
     }
 
     .about-section,
@@ -21,26 +23,29 @@
 
 //* About
 .about-section {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    //border: 1px solid white
 
     h2 {
         color: #FFF500;
-        height: 50px;
+        // height: 50px;
         // margin-top: 50px;
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
     }
 
     p {
-        font-size: 16px;
+        font-size: 13px;
         line-height: 27px;
     }
 }
 
 //*Skills
 .skills-section {
+
+    //border: 1px solid white
     h2 {
         color: #00FFF0;
-        margin-bottom: 36px;
+        margin-bottom: 10px;
     }
 }
 
@@ -102,6 +107,11 @@
 //tablet
 @media only screen and (min-width: 774px) {
     .info-section {
+        h2 {
+            font-size: 50px;
+            height: 50px;
+            margin-bottom: 25px;
+        }
 
         .about-section,
         .skills-section,
@@ -112,13 +122,14 @@
     }
 
     .about-section {
-        h2 {
-            font-size: 60px;
-            height: 60px;
-        }
+        margin-bottom: 40px;
+        // h2 {
+        //     font-size: 60px;
+        //     height: 60px;
+        // }
 
         p {
-            font-size: 24px;
+            font-size: 20px;
             line-height: 35px;
         }
     }
