@@ -59,8 +59,16 @@
     }
 
     a {
+        font-weight: 300;
+        font-size: 13px;
         margin-top: 2px;
         color: white;
+    }
+
+    .card-urls {
+        display: flex;
+        justify-content: space-between;
+        width: 105px;
     }
 }
 

@@ -8,7 +8,15 @@ export default function Projects() {
             <div className='projects-content-container'>
                 <h2>Projects</h2>
                 <div className="projects-container">
-                    {PROJECT_DATA.map((project, i) => < Card key={i} img={project.img} title={project.title} description={project.description} link={project.link} />
+                    {PROJECT_DATA.map((project, i) =>
+                        < Card
+                            key={i}
+                            img={project.img}
+                            title={project.title}
+                            description={project.description}
+                            gitUrl={project.gitUrl}
+                            liveUrl={project.liveUrl}
+                        />
                     )}
                 </div>
             </div>
