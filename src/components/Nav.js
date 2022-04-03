@@ -6,7 +6,6 @@ export default function Nav() {
         <nav>
             <div className="nav-links">
                 <Link
-                    activeClass='active'
                     to='contact'
                     spy={true}
                     smooth={true}
@@ -14,7 +13,6 @@ export default function Nav() {
                     duration={500}
                 >contact</Link>
                 <Link
-                    activeClass='active'
                     to='about'
                     spy={true}
                     smooth={true}
@@ -22,7 +20,6 @@ export default function Nav() {
                     duration={500}
                 >about</Link>
                 <Link
-                    activeClass='active'
                     to='projects'
                     spy={true}
                     smooth={true}
