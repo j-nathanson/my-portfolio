@@ -7,8 +7,8 @@ export const PROJECT_DATA = [
         title: 'Dreamy - a dream journal app',
         img: dreamy,
         description: 'MERN - JSON Web Token - Google oauth',
-        gitUrl: 'https://github.com/j-nathanson/dream-journal',
-        liveUrl: ''
+        gitUrl: 'https://github.com/j-nathanson/dreamy-api',
+        liveUrl: 'https://dreamy-journal.netlify.app/'
     },
     {
         title: 'Banh mi mama - a food ordering app',
