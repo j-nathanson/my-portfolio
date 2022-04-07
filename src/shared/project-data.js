@@ -1,6 +1,7 @@
 import dreamy from '../assets/images/dreamy.png'
 import banhmi from '../assets/images/banh-mi-mama.png'
 import foodies from '../assets/images/foodies.png'
+import portfolio from '../assets/images/portfolio.png'
 
 export const PROJECT_DATA = [
     {
@@ -23,5 +24,12 @@ export const PROJECT_DATA = [
         description: 'React  - Redux Toolkit - Bootstrap',
         gitUrl: 'https://github.com/j-nathanson/foodtrucks',
         liveUrl: 'https://nycft.herokuapp.com/home',
+    },
+    {
+        title: 'My Portfolio page',
+        img: portfolio,
+        description: 'React  - SCSS',
+        gitUrl: 'https://github.com/j-nathanson/my-portfolio',
+        liveUrl: 'https://portfolio-jacob-nathanson.herokuapp.com',
     },
 ]
