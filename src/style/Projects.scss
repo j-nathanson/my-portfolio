@@ -8,7 +8,7 @@
     width: 344px;
 
     h2 {
-        color: #8ECA42;
+        color: $green;
         font-weight: 800;
         font-size: 50px;
         margin-bottom: 40px;
@@ -30,7 +30,7 @@
 
 .card-body {
     height: 218px;
-    background: #C4C4C4;
+    background: $light-grey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@
 
 .card-title {
     height: 66px;
-    background: #8D8D8D;
+    background: $grey;
     padding-left: 9px;
 
     h3 {

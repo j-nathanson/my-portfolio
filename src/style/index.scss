@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import './colors.scss';
 @import './Nav';
 @import './Hero';
 @import './Info';
@@ -13,7 +14,7 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: $black;
+    color: $white;
     font-family: 'Sora', sans-serif;
 }

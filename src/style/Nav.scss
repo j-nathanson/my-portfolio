@@ -3,17 +3,17 @@ nav {
     position: fixed;
     display: flex;
     justify-content: center;
-    background-color: rgba(255, 247, 247, 0.07);
+    background-color: $dark-grey;
     padding: 10px;
 
     a {
-        color: white;
+        color: $white;
         font-weight: 100;
         text-decoration: none;
     }
 
     a:hover {
-        color: #00ffeef5;
+        color: $light-blue2;
         cursor: pointer;
     }
 }
