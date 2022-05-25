@@ -2,7 +2,7 @@ import dreamy from '../assets/images/dreamy.png'
 import banhmi from '../assets/images/banh-mi-mama.png'
 import foodies from '../assets/images/foodies.png'
 import portfolio from '../assets/images/portfolio.png'
-import descripify from '../assets/images/descriptify.png'
+import descriptify from '../assets/images/descriptify.png'
 
 export const PROJECT_DATA = [
     {
@@ -21,7 +21,7 @@ export const PROJECT_DATA = [
     },
     {
         title: 'Descriptify - product describer',
-        img: descripify,
+        img: descriptify,
         description: 'React  - Redux Toolkit - Bootstrap',
         gitUrl: 'https://github.com/j-nathanson/openai-descriptify',
         liveUrl: 'https://descriptify.netlify.app/',
