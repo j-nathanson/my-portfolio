@@ -1,3 +1,4 @@
+import freeUp from '../assets/images/freeUp.png'
 import dreamy from '../assets/images/dreamy.png'
 import banhmi from '../assets/images/banh-mi-mama.png'
 import foodies from '../assets/images/foodies.png'
@@ -5,6 +6,13 @@ import portfolio from '../assets/images/portfolio.png'
 import descriptify from '../assets/images/descriptify.png'
 
 export const PROJECT_DATA = [
+    {
+        title: 'FreeUp - a donator app',
+        img: freeUp,
+        description: 'PostgresSQL - React - MUI',
+        gitUrl: 'https://github.com/FreeUp-CoLab',
+        liveUrl: 'https://freeupnyc.netlify.app/'
+    },
     {
         title: 'Dreamy - a dream journal app',
         img: dreamy,
