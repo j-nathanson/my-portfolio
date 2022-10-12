@@ -17,7 +17,7 @@ export const PROJECT_DATA = [
         title: 'Dreamy - a dream journal app',
         img: dreamy,
         description: 'MERN - JSON Web Token - Google oauth',
-        gitUrl: 'https://github.com/j-nathanson/dreamy-api',
+        gitUrl: 'https://github.com/orgs/Dreamy-Journal/repositories',
         liveUrl: 'https://dreamy-journal.netlify.app/'
     },
     {
