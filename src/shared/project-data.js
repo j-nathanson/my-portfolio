@@ -4,8 +4,16 @@ import banhmi from '../assets/images/banh-mi-mama.png'
 import foodies from '../assets/images/foodies.png'
 import portfolio from '../assets/images/portfolio.png'
 import descriptify from '../assets/images/descriptify.png'
+import scraibe from '../assets/images/scraibe.png'
 
 export const PROJECT_DATA = [
+     {
+        title: 'Scr-ai-be - ai note organizer',
+        img: scraibe,
+        description: 'Java - React - Tailwind',
+        gitUrl: 'https://github.com/j-nathanson/scraibe/tree/main',
+        liveUrl: 'http://scraibeclient.s3-website.us-east-2.amazonaws.com/'
+    },
     {
         title: 'FreeUp - a donator app',
         img: freeUp,

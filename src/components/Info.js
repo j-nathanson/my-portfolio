@@ -28,6 +28,9 @@ export default function About() {
                     <div className="skills-icon redux-icon" />
                     <div className="skills-icon mongo-icon" />
                     <div className="skills-icon node-icon" />
+                    <div className="skills-icon java-icon" />
+                    <div className="skills-icon spring-icon" />
+                    <div className="mysql-icon" />
                 </div>
             </section>
 
