@@ -7,7 +7,7 @@ import descriptify from '../assets/images/descriptify.png'
 import scraibe from '../assets/images/scraibe.png'
 
 export const PROJECT_DATA = [
-     {
+    {
         title: 'Scr-ai-be - ai note organizer',
         img: scraibe,
         description: 'Java - React - Tailwind',
@@ -22,25 +22,18 @@ export const PROJECT_DATA = [
         liveUrl: 'https://freeupnyc.netlify.app/'
     },
     {
-        title: 'Dreamy - a dream journal app',
-        img: dreamy,
-        description: 'MERN - JSON Web Token - Google oauth',
-        gitUrl: 'https://github.com/orgs/Dreamy-Journal/repositories',
-        liveUrl: 'https://dreamy-journal.netlify.app/'
-    },
-    {
-        title: 'NYCFT - a food truck catering app',
-        img: foodies,
-        description: 'React  - Redux Toolkit - Bootstrap',
-        gitUrl: 'https://github.com/j-nathanson/foodtrucks',
-        liveUrl: 'https://nycft.herokuapp.com/home',
-    },
-    {
         title: 'Descriptify - product describer',
         img: descriptify,
         description: 'React  - Redux Toolkit - Bootstrap',
         gitUrl: 'https://github.com/j-nathanson/openai-descriptify',
         liveUrl: 'https://descriptify.netlify.app/',
+    },
+    {
+        title: 'Dreamy - a dream journal app',
+        img: dreamy,
+        description: 'MERN - JSON Web Token - Google oauth',
+        gitUrl: 'https://github.com/orgs/Dreamy-Journal/repositories',
+        liveUrl: 'https://dreamy-journal.netlify.app/'
     },
     {
         title: 'Banh mi mama - a food ordering app',
